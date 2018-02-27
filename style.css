@@ -13,11 +13,10 @@ body{
 
 p{
     position: absolute;
-    top: 88%;
+    top: 84%;
     left: 45%;
     margin-top: -150px;
     margin-left: -150px;
-    margin-right: 25px;
     width: 350px;
     line-height: 1.6;
 }
@@ -43,6 +42,8 @@ hr{
     font-size: 14px;
     margin-left: 2px;
     margin-right: 2px;
+    width: 60px;
+
 }
 #white, #pink, #orange, #yellow, #red{
     border: #a0a0a0 solid 1px;
