@@ -12,14 +12,14 @@ const blackButton = document.getElementById("black");
 
 const message = document.createElement("p");
 document.body.appendChild(message);
+var image1 = new Image();
+document.body.appendChild(image1);
 
 // when the user clicks their color, it shows the color message
 whiteButton.onclick = function() {
     document.body.style.background = "white";
     document.body.style.color = "black";
-    var image1 = new Image();
-    image1.src = "images/heart-fist.png";
-    document.body.appendChild(image1);
+    image1.src = "images/smileyface.jpeg";
     message.textContent = white.value
                         + "White is the color of positivity. It is associated with innocence, light, goodness, and perfection."
                         + " You are graceful, loyal, and noble. You strive for a harmonious and balanced life more than anything."
@@ -28,7 +28,6 @@ whiteButton.onclick = function() {
 pinkButton.onclick = function() {
     document.body.style.background = "pink";
     document.body.style.color = "black";
-    
     message.textContent = pink.value
                         + "Pink is the color of femininity. It is associated with flowers, babies, charm, and sweetness."   
                         + " You are compassionate, affectionate, and insightful. You have a heart big enough to fit the entire world."
@@ -44,6 +43,7 @@ orangeButton.onclick = function() {
 
 yellowButton.onclick = function() {
     document.body.style.background = "yellow";
+    image1.src = "images/sunshine01.jpeg";
     document.body.style.color = "black";
     message.textContent = yellow.value
                         + "Yellow is the color of sunshine. It is associated with joy, happiness, intellect, and energy."    
@@ -93,6 +93,7 @@ blueButton.onclick = function() {
 blackButton.onclick = function() {
    document.body.style.background = "black";
    document.body.style.color = "white";
+    image1.src = "images/heart-fist.png";
    message.textContent = black.value
                         + "Black is the color of power and sophistication. It is associated with authority, elegance, formality, and strength."    
                         + " You are classy, dramatic, and mysterious. You can be intimidating at first but you are a loyal and trusted friend to those that take the time to know you."
