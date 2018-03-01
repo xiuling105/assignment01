@@ -17,6 +17,9 @@ document.body.appendChild(message);
 whiteButton.onclick = function() {
     document.body.style.background = "white";
     document.body.style.color = "black";
+    var image1 = new Image();
+    image1.src = "images/heart-fist.png";
+    document.body.appendChild(image1);
     message.textContent = white.value
                         + "White is the color of positivity. It is associated with innocence, light, goodness, and perfection."
                         + " You are graceful, loyal, and noble. You strive for a harmonious and balanced life more than anything."
@@ -25,6 +28,7 @@ whiteButton.onclick = function() {
 pinkButton.onclick = function() {
     document.body.style.background = "pink";
     document.body.style.color = "black";
+    
     message.textContent = pink.value
                         + "Pink is the color of femininity. It is associated with flowers, babies, charm, and sweetness."   
                         + " You are compassionate, affectionate, and insightful. You have a heart big enough to fit the entire world."
