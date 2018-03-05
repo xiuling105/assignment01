@@ -50,7 +50,7 @@ randomClick.onclick = function() {
 whiteButton.onclick = function() {
     document.body.style.background = "white";
     document.body.style.color = "black";
-    image1.src = "images/smileyface.jpeg";
+    image1.src = "images/white.jpg";
     message.textContent = white.value
                         + "White is the color of positivity. It is associated with innocence, light, goodness, and perfection."
 }
@@ -58,6 +58,7 @@ whiteButton.onclick = function() {
 pinkButton.onclick = function() {
     document.body.style.background = "pink";
     document.body.style.color = "black";
+    image1.src = "images/pink.jpeg";
     message.textContent = pink.value
                         + "Pink is the color of femininity. It is associated with flowers, babies, charm, and sweetness."
 }
@@ -65,6 +66,7 @@ pinkButton.onclick = function() {
 orangeButton.onclick = function() {
     document.body.style.background = "orange";
     document.body.style.color = "black";
+    image1.src = "images/orange.jpg";
     message.textContent = orange.value
                         + "Orange is a mixture of energy from red and happiness from yellow. It is associated with success, encouragement, change, and determination."
 }
@@ -80,6 +82,7 @@ yellowButton.onclick = function() {
 redButton.onclick = function() {
     document.body.style.background = "red";
     document.body.style.color = "black";
+    image1.src = "images/red.jpeg";
     message.textContent = red.value
                         + "Red is the color of blood and fire. It is associated with love, energy, leadership, and courage."
 }
@@ -87,6 +90,7 @@ redButton.onclick = function() {
 brownButton.onclick = function() {
    document.body.style.background = "brown";
     document.body.style.color = "white";
+    image1.src = "images/brown.jpeg";
    message.textContent = brown.value
                         + "Brown is the color of earth, wood and stone. It is associated with stability, warmth, and honesty."
 }
@@ -94,6 +98,7 @@ brownButton.onclick = function() {
 greenButton.onclick = function() {
    document.body.style.background = "green";
     document.body.style.color = "white";
+    image1.src = "images/green.jpeg";
    message.textContent = green.value
                         + "Green is the color of life and nature. It is associated with meanings of growth, harmony, and environment."
 }
@@ -101,6 +106,7 @@ greenButton.onclick = function() {
 purpleButton.onclick = function() {
     document.body.style.background = "purple";
     document.body.style.color = "white";
+    image1.src = "images/purple.jpeg";
     message.textContent = purple.value
                         + "Purple is a mixture of calm stability from blue and fierce energy from red. It is associated with wealth, extravagance, creativity, wisdom, and dignity."
 }
@@ -108,6 +114,7 @@ purpleButton.onclick = function() {
 blueButton.onclick = function() {
     document.body.style.background = "blue";
     document.body.style.color = "white";
+    image1.src = "images/blue.jpeg";
     message.textContent = blue.value
                         + "Blue represents both the sky and the sea. It is associated with freedom, imagination, expansiveness, and sensitivity."
 }
@@ -115,7 +122,7 @@ blueButton.onclick = function() {
 blackButton.onclick = function() {
    document.body.style.background = "black";
    document.body.style.color = "white";
-    image1.src = "images/heart-fist.png";
+   image1.src = "images/black.jpeg";
    message.textContent = black.value
                         + "Black is the color of power and sophistication. It is associated with authority, elegance, formality, and strength."
 }
